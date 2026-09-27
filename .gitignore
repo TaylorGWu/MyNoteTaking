@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+# Ignore Python bytecode caches at every directory depth.
+**/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -88,6 +89,7 @@ celerybeat-schedule
 # dotenv
 .env
 .env.*
+env.yaml
 
 # mypy
 .mypy_cache/
